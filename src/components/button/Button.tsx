@@ -19,6 +19,9 @@ const StyledButton = styled.button<ButtonProps>`
   font-weight: bold;
   border-radius: 10px;
   display: inline-block;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   color: ${(props) => (props.primary ? "#fff" : "#000")};
   background-color: ${(props) => (props.primary ? "#FF5655" : "#f4c4c4")};
   padding: ${(props) =>
