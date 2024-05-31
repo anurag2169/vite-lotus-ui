@@ -5,9 +5,9 @@
   "name": "@anurag2169/vite-lotus-ui",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "/dist"
   ],
@@ -68,7 +68,6 @@
     "vitest": "^1.6.0"
   },
   "peerDependencies": {
-    "prettier": "^3.2.5"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
