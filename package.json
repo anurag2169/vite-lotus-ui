@@ -1,6 +1,6 @@
 {
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@anurag2169"
+    "@anurag2169:registry": "https://npm.pkg.github.com"
   },
   "name": "@anurag2169/vite-lotus-ui",
   "version": "1.0.0",
@@ -67,8 +67,7 @@
     "vite-plugin-dts": "^3.9.1",
     "vitest": "^1.6.0"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "dependencies": {
     "dotenv": "^16.4.5"
   }
